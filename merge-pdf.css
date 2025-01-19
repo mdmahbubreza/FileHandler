@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #e6492d;
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  .upload-section {
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+  .upload-box {
+    background-color: #ffffff;
+    padding: 2em;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-button {
+    background-color: #e6492d;
+    color: white;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #d63d29;
+  }
+  
+  .summary {
+    margin-top: 3em;
+  }
+  
+  /* .feature-summary {
+    text-align: center;
+  }
+  
+  .feature-summary h2 {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.5em;
+  } */
+  
+  .summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+    line-height: 1.6;
+    font-size: 1.1em;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    margin-top: 2em;
+  }
+  
